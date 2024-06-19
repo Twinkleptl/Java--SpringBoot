@@ -13,8 +13,8 @@ This project provides a simple RESTful API for user registration and fetching us
 ### Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/user-registration-api.git
-cd user-registration-api
+git clone https://github.com/Twinkleptl/Java--SpringBoot
+cd Java--SpringBoot
 
 # Build the project
 
@@ -29,8 +29,8 @@ mvn spring-boot:run
 
 # For register user
 
-curl -X POST "http://localhost:8080/api/user/register" -H "Content-Type: application/json" -d '{"username": "john_doe", "email": "john@example.com", "password": "password123"}'
+curl -X POST "http://localhost:8080/api/user/register" -H "Content-Type: application/json" -d '{"email": "john@example.com", "username":"abc" "password": "password123"}'
 
 # For fetch user details
 
-curl -X GET "http://localhost:8080/api/user/fetch?username=john_doe"
+curl -X GET "http://localhost:8080/api/user/fetch?username=abc"
